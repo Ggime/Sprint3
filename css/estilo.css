@@ -1,0 +1,1012 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: sans-serif;
+   font-size: 14px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.general {
+   background-image: url(../img/back1.png);
+   background-repeat:repeat;
+   background-size: 50%;
+   padding-top: 1px;
+   margin: 0 auto;
+   width: 80vw;
+}
+
+header .completo{
+   width:100%;
+   top:0px;
+   padding: 1px;
+   position: fixed;
+   z-index: 10;
+   box-sizing: border-box;
+   margin: 0px auto;
+}
+
+.encabezado{
+   background-color: #4E9184;
+   border-radius: 0.1%;
+   padding-top: 10px;
+   color:  #FFFFFF;
+   position: relative;
+   width: 100%;
+}
+
+.logo{
+   margin-top: 5px;
+   background-size: contain;
+   background-image: url(../img/logo2.png);
+   width: 56px;
+   height: 66px;
+   margin: 0.2vh 2vw;
+   position: absolute;
+   z-index: 11;
+}
+
+.logo:hover{
+   opacity: 0.7;
+}
+
+.busqueda {
+   margin-left: 100px;
+   display: inline-block;
+   width: 45%;
+   position: relative;
+   z-index: 2;
+   padding-bottom: 20px;
+}
+
+.busqueda form{
+   width: 90%;
+}
+
+.poner{
+   width: 65%;
+   padding: 1%;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+   box-sizing: border-box;
+}
+
+.inicio{
+   font-size: 0.9em;
+   display: inline-block;
+}
+
+.inicio a{
+   color: white;
+   padding: 0.5vw;
+}
+
+.inicio a:hover {
+   color: #01DFA5;
+}
+
+.inicio  .actividades {
+   display: none;
+}
+
+.dar-klik, .menun {
+   display: none;
+}
+
+.ul-label{
+   display: none;
+}
+
+.ul-label1{
+    display:none;
+  }
+
+.buscar{
+   padding: 5px;
+   margin: 1vh 1vw;
+   width:70px;
+   display: inline-block;
+   border: none;
+   border-radius: 2px;
+   box-sizing: border-box;
+   cursor: pointer;
+   color:#585858;
+   background-color:#BDBDBD;
+}
+
+.buscar:hover{
+   background-color: #01DFA5;
+   color: white;
+}
+
+
+
+.avatar{
+  width: 50px;
+}
+
+
+
+.menu{
+   padding-top: 1px;
+   color:  black;
+   width: 100%;
+}
+
+.menu .menu-derc{
+   background-color:  #01DFA5;
+   font-size:1rem;
+   margin-right: 0;
+   display: inline-block;
+   padding: 10px 0;
+   float:right;
+   width: 60%;
+}
+
+.menu .menu-izq{
+   background-color: #01DFA5;
+   font-size:1rem;
+   padding: 10px;
+   display: inline-block;
+   float: left;
+   width: 40%;
+}
+
+.menu a {
+   color: #585858;
+   text-decoration: none;
+   padding-left: 1.2vw;
+}
+
+.menu a:hover {
+   color: #fff;
+}
+
+footer{
+   width: 100%;
+   background-color: #4E9184;
+   text-align: center;
+   padding: 2%;
+   color: white;
+   clear: both;
+   font-size: 1em;
+   margin-top: 30px;
+}
+
+/* INDEX */
+
+section .articulo1{
+   display: inline-block;
+   vertical-align: top;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+section .sport {
+   margin-top: 10px;
+   float: left;
+   display: inline-block;
+   width: 35%;
+}
+
+section .sport img{
+   margin-top: 50px;
+   width: 300px;
+   margin-left: 0;
+}
+
+section .info {
+   margin: 25px 10px;
+   float: left;
+   display: inline-block;
+   width: 60%;
+   margin-left: 20px;
+   text-align: justify;
+}
+
+/* Seccion Recomendados */
+.articulo2{
+   margin-top: 2%;
+   color: black;
+   font-size: 1.2em;
+   clear: both;
+   width: 100%;
+}
+
+.articulo2 .espacio{
+   color:#4E9184;
+   font-weight: bold;
+   margin-left: 2%;
+}
+
+.deportes{
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 0px 2%;
+   width: 100%;
+   font-size: 0.7em;
+   color: #A4A4A4;
+   font-weight: bold;
+}
+
+.deporte {
+   display: inline-block;
+   width: 100%;
+   margin-top: 10px;
+}
+
+.subtitulo{
+   text-align: center;
+   margin-top: 5px;
+}
+
+.imagen{
+   display: inline-block;
+   width: 20%;
+   position: relative;
+   border: 2px solid #8A0829;
+   vertical-align: top;
+   margin-left: 30px;
+}
+
+/*Pantalla iniciar sesion*/
+
+.iniciar{
+    width: 100%;
+}
+
+section .ingresar{
+   border: 2px solid #4E9184;
+   width: 45%;
+   margin: 5%;
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 30px;
+   float: left;
+   display: inline-block;
+   box-shadow:
+}
+
+.ingresar p{
+   text-align: left;
+   display:block;
+   font-size: 15px;
+   color: #489185;
+   margin-bottom: 18px;
+
+}
+
+.ingresar .recor p{
+   text-align: center;
+   display:block;
+   padding-left: 12px;
+   font-size: 12px;
+   color: #A4A4A4;
+   margin-bottom: 20px;
+ }
+
+.ingresar select {
+   width: 100%;
+   height: 40px;
+   padding: 6px 20px;
+   margin: 1vh 0vw;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+.nombre{
+  width: 100%;
+  margin-left: 0px;
+}
+
+/*.nombre1{
+  display: none;
+}
+
+/*.errores{
+  display: none;
+}*/
+
+.mensajes2 li{
+  display: none;
+}
+
+.mensajes li{
+  display: inline-block;
+  margin-left: 12%;
+  color: red;
+  font-size: 11px;
+  list-style-type: none;
+}
+
+.mensa li{
+  display: inline-block;
+  margin-left: 30%;
+  color: red;
+  font-size: 11px;
+  list-style-type: none;
+}
+
+.mens li{
+ display: inline-block;
+ margin-left:40px;
+ color: red;
+ font-size: 11px;
+ list-style-type: none;
+}
+
+ .mensaje1 {
+  display: inline-block;
+  margin-left:30%;
+  color: red;
+  font-size: 11px;
+  list-style-type: none;
+}
+
+.foto{
+  width: 100%;
+    height: 40px;
+    padding: 10px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 3px 0px;
+}
+
+
+.selectores{
+  width: 100%;
+  margin-left: 0px;
+}
+
+
+.ingresar input[type=text] {
+   width: 49%;
+   padding: 12px 20px;
+   margin: 1vh 0vw;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.ingresar input[type=password] {
+   width: 49%;
+   padding: 12px 20px;
+   margin: 1vh 0vw;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.ingresar input[type=submit] {
+   width: 100%;
+   background-color: #4E9184;
+   color: white;
+   padding: 14px 20px;
+   margin-left: 0px;
+   margin-top: 15px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.ingresar input[type=submit]:hover {
+   background-color: #5CAD9D;
+}
+
+.ingresar .face{
+   width: 100%;
+   height: 20%;
+   background-color: #29088A;
+   color: white;
+   padding-top: 15px;
+   margin-left: 0px;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+.ingresar .face:hover {
+   background-color: #210B61;
+}
+
+.ingresar .face p {
+   color: white;
+   text-align: center;
+}
+
+
+section .regis{
+   width: 45%;
+   margin-top: 5%;
+   border-radius: 15px;
+   float: left;
+}
+
+.regis p{
+   text-align:left;
+   display:block;
+   padding-left: 20px;
+   font-size: 18px;
+   color: #01DFA5;
+   margin: 25px 0px;
+   font-weight: bold;
+}
+
+.regis p.imp{
+   text-align:left;
+   display:block;
+   padding-left: 20px;
+   font-size: 18px;
+   color: black;
+   margin: 25px 0px;
+   font-weight: bold;
+}
+
+hr {
+   height: 3px;
+   width: 100%;
+   background-color: #A4A4A4;
+}
+
+.img_depor{
+   width: 100%;
+}
+
+.img_depor1{
+   display: none;
+}
+
+.ok{
+   color: #8A0829;
+   margin-left: 50px;
+   font-size: 12px;
+}
+
+
+/*Preguntas Frecuentes*/
+.cabeza{
+   margin-top: 100px;
+   display: block;
+   margin: 35px 20px;
+   margin-top: 40px;
+}
+
+.cabeza  h2{
+   text-align: center;
+   display: inline-block;
+   font-size: 20px;
+   color: #4E9184;
+   margin-top: 20px;
+}
+
+section{
+   margin-top: 20px;
+}
+
+.preguntas{
+   box-shadow: 4px 4px 4px #585858;
+   height: 50px;
+   background: rgba(1, 223, 165, 0.4);
+   margin: 0 auto;
+   width: 85%;
+   display: block;
+   border-radius: 2px;
+   padding: 5px;
+   border: 1px solid #A4A4A4;
+}
+.preguntas h3{
+   text-align: center;
+   font-size: 20px;
+   color: #585858;
+}
+.preguntas h3:hover{
+   color: #4E9184;
+}
+
+.respuestas{
+   width: 80%;
+   display: none;
+   margin: 0 auto;
+   margin-bottom: 25px;
+   text-align: justify;
+   font-size: 20px;
+   padding-top: 5px;
+}
+
+.preyres{
+   margin-bottom: 15px;
+}
+
+.dar-clic{display: none;}
+.dar-clic:checked ~ div.respuestas{
+   display: block;
+}
+
+.consulta{
+   background: rgba(88,88, 88, 0.1);
+   box-shadow: 4px 4px 4px #585858;
+   margin: 0 auto;
+   width: 85%;
+   margin-top: 40px;
+   border: 3px solid #4E9184;
+   display: block;
+   position: relative;
+   padding-bottom: 5px;
+}
+.consulta h3{
+   text-align: center;
+   font-size: 20px;
+   padding: 10px;
+   color: #585858;
+}
+.consulta input{
+   display: block;
+   margin: 0 auto;
+}
+.consulta #texto{
+   margin: 10px 120px;
+   font-size: 15px;
+   width: 70%;
+}
+
+.consulta #boton{
+   padding: 5px;
+   margin-left: 20px;
+   width:70px;
+   display: inline-block;
+   border: none;
+   border-radius: 2px;
+   box-sizing: border-box;
+   cursor: pointer;
+   color:#585858;
+   background-color:#BDBDBD;
+}
+
+.consulta #boton:hover{
+   background-color: #4E9184;
+   color: white;
+}
+
+
+@media (max-width:900px) {
+.general{
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+.encabezado{
+    background-color: #4E9184;
+    border-radius: 1px;
+    padding-top: 30px;
+    color:  #FFFFFF;
+    position: relative;
+  }
+
+.busqueda {
+    width:80%;
+    margin-top: 0;
+    display: block;
+  }
+
+.inicio{
+    width: 100%;
+    display: block;
+    background-color: #01DFA5;
+    font-size: 0.9em;
+  }
+
+.inicio .fijo {
+    color: #585858;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-right: 3vh;
+    margin: 0 auto;
+  }
+
+  .avatar{
+    width: 40px;
+  }
+
+.inicio .movil {
+    color: #585858;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-right: 3vh;
+    margin: 0 auto;
+  }
+
+.act-contenedor{
+    display: inline-block;
+    position: relative;
+  }
+
+.menun{
+    position: absolute;
+    top:30px;
+    background-color:#01DFA5;
+    padding: 10px 5px;
+    font-size: 15px;
+  }
+
+.menun li {
+    padding-top: 15px;
+    padding-left: 5px;
+    cursor: pointer;
+    list-style: none;
+  }
+
+.menun li:hover {
+    color: #4E9184;
+  }
+
+.ul-label {
+    color: #585858;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-right: 3vh;
+    margin: 0 auto;
+  }
+
+.inicio a:hover{
+    color: #4E9184;
+  }
+
+.menun{
+    display: none;
+  }
+
+.ul-label{
+    cursor: pointer;
+  }
+
+.ul-label1{
+    display:none;
+  }
+
+
+
+#ul:checked ~ .menun {
+    display: block;
+  }
+
+.inicio a:first-child{
+    margin-left:80px;
+  }
+
+.poner{
+   width: 70%;
+   padding: 1.5vh;
+   margin: 1vh 2vh;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+   box-sizing: border-box;
+ }
+
+.logo{
+   margin: 1vh 1vh;
+   top: -1px;
+   left: 15px;
+   height: 76px;
+   width: 63px;
+ }
+
+.menu{
+   display: none;
+ }
+
+/* Seccion Bienvenidos */
+
+section .articulo1{
+   margin-top:3vh;
+}
+
+section .sport {
+   display: none
+ }
+
+section .sport img{
+   display: none;
+ }
+
+section .info {
+  margin: 0 20vw;
+  }
+
+.deportes{
+   display: inline-block;
+   padding: 0px 2%;
+   width: 100%;
+   font-size: 0.7em;
+ }
+
+.imagen{
+  width: 35%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 2vh;
+  margin-left: 50px;
+  }
+
+/*Iniciar Sesion */
+
+section .ingresar{
+   border: 2px solid #4E9184;
+   width: 55%;
+   margin: 5%;
+   background-color: #fff;
+   border-radius: 15px;
+   padding: 30px 10px;
+   float: left;
+   display: inline-block;
+  }
+
+section .regis{
+   width: 25%;
+   margin: 5%;
+   border-radius: 15px;
+   float: left;
+ }
+
+.img_depor{
+   display: none;
+ }
+
+.img_depor1{
+   display: block;
+   width: 100%;
+ }
+
+ /*Preguntas Frecuentes*/
+.cabeza  h2{
+   text-align: center;
+   display: inline-block;
+   font-size: 20px;
+  }
+
+.preguntas h3{
+   text-align: center;
+   font-size: 20px;
+ }
+
+.respuestas{
+    font-size: 18px;
+  }
+}
+
+@media (max-width:600px) {
+
+.general{
+   width: 100vw;
+   margin: 0 auto;
+  }
+
+.encabezado{
+   background-color: #4E9184;
+   border-radius: 1px;
+   padding-top: 30px;
+   color:  #FFFFFF;
+   height: 100px;
+   position: relative;
+   padding-bottom:5px;
+  }
+
+.busqueda {
+   margin-left: 90px;
+   margin-top: 0;
+   display: block;
+  }
+
+form{
+   width:100%;
+}
+
+.avatar{
+  width: 30px;
+}
+
+.inicio{
+   width: 100%;
+   display: block;
+   background-color: #01DFA5
+ }
+
+.inicio a{
+   text-align: center;
+   display: inline-block;
+ }
+
+.inicio a:first-child{
+   margin-left: 5px;
+ }
+
+.inicio .fijo {
+   padding-right: 1vh;
+ }
+
+.inicio .actividades {
+   padding-right: 1vh;
+ }
+
+.inicio .movil {
+   display: none;
+ }
+
+ .menun{
+     position: absolute;
+     top:0px;
+     background-color:#01DFA5;
+     padding: 10px 5px;
+     font-size: 15px;
+   }
+
+.ul-label1{
+    cursor: pointer;
+}
+
+.ul-label1 {
+    color: white;
+    display: inline-block;
+    padding-top: 2vh;
+    padding-right: 3vh;
+    margin: 0 auto;
+  }
+.ul-label{
+   display: none;
+}
+
+.menun{
+    display: none;
+  }
+
+.poner {
+   width:60%;
+   padding: 1.5%;
+   margin: 1vh 2vh;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 2px;
+   box-sizing: border-box;
+  }
+
+.logo{
+   margin: 1vh 1vh;
+   top:-1px;
+   left: 6px;
+   height: 76px;
+   width: 63px;
+  }
+
+.menu{
+   display: none;
+  }
+
+.buscar{
+   padding: 5px;
+   margin: 1vh 1vw;
+   width:50px;
+ }
+
+/* Seccion Bienvenidos */
+section .sport {
+  display: none
+  }
+
+section .sport img{
+  display: none;
+  }
+
+section .info {
+  margin: 0 20vw;
+  }
+
+.deportes{
+   display: inline-block;
+   padding: 0px 2%;
+   width: 100%;
+   font-size:1em;
+ }
+
+.imagen{
+   width: 70%;
+   display: inline-block;
+   vertical-align: top;
+   margin: 2% 15%;
+  }
+
+/*Iniciar Sesion */
+
+section .ingresar{
+   margin: 10% 15% 5% 15%;
+   display: inline-block;
+   width: 70%
+ }
+
+section .regis{
+   width: 70%;
+   margin: 5% 15%;
+ }
+
+.img_depor{
+   display: block;
+   width: 100%;
+ }
+
+.img_depor1{
+   display: none;
+ }
+
+.ingresar input[type=text], select {
+   width: 100%;
+ }
+
+ .ingresar input[type=password] {
+    width: 100%;
+ }
+
+ .mensajes2 li{
+   display: inline-block;
+   margin-left: 10%;
+   color: red;
+   font-size: 11px;
+   list-style-type: none;
+ }
+
+/*.ingresar input[type=submit] {
+   margin: 3vh 4vw 1vh 7vw;
+ }
+
+/*.ingresar .face{
+   margin: 1vh 7vw;
+ }*/
+
+.ok{
+   color: #8A0829;
+   margin: 3vh 4vw 1vh 7vw;
+   font-size: 12px;
+ }
+
+/*Preguntas Frecuentes*/
+.cabeza  h2{
+   text-align: center;
+   display: inline-block;
+   font-size: 18px;
+  }
+
+.preguntas h3{
+  text-align: center;
+  font-size: 18px;
+}
+
+.respuestas{
+  font-size: 15px;
+}
+
+.consulta h3{
+  text-align: center;
+  font-size: 14px;
+  }
+
+.consulta  #texto {
+  margin-left:10%;
+  font-size: 12px;
+  width: 80%;
+  height: 16vh;
+  resize: none;
+  }
+}
