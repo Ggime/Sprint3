@@ -2,7 +2,7 @@
 #conexion a base de dato
      $db_host="mysql:host=localhost";
      $usuario = "root";//post usuario
-     $pass = "root";// post pass
+     $pass = "";// post pass
 
      try {
        $db = new PDO($db_host, $usuario, $pass, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);

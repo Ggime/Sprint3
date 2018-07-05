@@ -1,5 +1,4 @@
-<?php
-require_once("autoload.php") ?>
+
 <style media="screen">
 .restaurar{
    padding: 5px;

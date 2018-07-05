@@ -6,7 +6,7 @@ class Database
 {
     private $dsn = "mysql:dbname=db_befit;host=localhost;port=3306";
     private $usuario = "root";
-    private $password = "root";
+    private $password = "";
     private $errorOpt = [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION];
     private $db;
 
